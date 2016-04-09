@@ -53,6 +53,7 @@ RUN apt-get -y install pandoc
 
 WORKDIR reveal.js 
 CMD grunt serve
-EXPOSE 8000
+ENV PORT 80
+EXPOSE 80
 
 
